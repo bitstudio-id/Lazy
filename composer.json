@@ -1,0 +1,34 @@
+{
+    "name": "bitstudio/lazy",
+    "description": "Lumen ipsum dolor sit amet",
+    "license": "MIT",
+    "keywords": [
+        "lumen",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Ibnul Mutaki",
+            "email": "ibnuul@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BITStudio\\Lazy\\": "src/"
+        },
+        "files": [],
+        "classmaps" : []
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "homepage": "http://bitstudio.id/",
+    "prefer-stable": true
+}
